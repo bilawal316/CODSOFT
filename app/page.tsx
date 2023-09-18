@@ -9,10 +9,10 @@ import Contact from "./components/contact/contact";
 import Link from "next/link";
 import Image from "next/image";
 
-const page = () => {
+const Page = () => {
   return (
     <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden scrollbar scrollbar-track-gray-500 scrollbar-thumb-[#f7AB0A]/80 z-0">
-      <title>Bilawal's Portfolio</title>
+      <title>Bilawals Portfolio</title>
 
       <Header />
       <section id="hero" className="snap-start">
@@ -50,4 +50,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
