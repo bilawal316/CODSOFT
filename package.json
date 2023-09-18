@@ -1,7 +1,8 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://github.com/bilawal316/CODSOFT.git",
+
   "scripts": {
     "dev": "next dev",
     "build": "next build",
