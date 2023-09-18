@@ -2,7 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import CV from "../../components/cv/cv";
-import Image from 'next/image';
+import Image from "next/image";
 
 const About = () => {
   return (

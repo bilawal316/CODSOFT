@@ -7,7 +7,7 @@ import Skills from "./components/Skills/skills";
 import Projects from "./components/Projects/projects";
 import Contact from "./components/contact/contact";
 import Link from "next/link";
-import Image from 'next/image';
+import Image from "next/image";
 
 const page = () => {
   return (
