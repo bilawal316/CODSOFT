@@ -7,6 +7,7 @@ import Skills from "./components/Skills/skills";
 import Projects from "./components/Projects/projects";
 import Contact from "./components/contact/contact";
 import Link from "next/link";
+import Image from 'next/image';
 
 const page = () => {
   return (
@@ -35,10 +36,12 @@ const page = () => {
       <Link href="#hero">
         <footer className="sticky bottom-5 w-full cursor-pointer">
           <div className="flex items-center justify-center ">
-            <img
-              className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer"
-              src="./logo.png"
+            <Image
+              className="rounded-full filter grayscale hover:grayscale-0 cursor-pointer"
+              src="/logo.png"
               alt=""
+              width={10}
+              height={10}
             />
           </div>
         </footer>
