@@ -12,8 +12,8 @@ const Footer = () => {
             className="rounded-full filter grayscale hover:grayscale-0 cursor-pointer"
             src="/logo.png"
             alt=""
-            width={10}
-            height={10}
+            width={50}
+            height={50}
           />
         </div>
       </Link>
