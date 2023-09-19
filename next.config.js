@@ -1,4 +1,14 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  // Add your other Next.js configuration options here
 
-module.exports = nextConfig
+  // Enable the experimental 'images' feature
+  experimental: {
+    images: true,
+  },
+
+  // Specify the 'output' option
+  output: "static",
+};
+
+module.exports = nextConfig;
