@@ -20,7 +20,7 @@ const About = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             src="./bilawal.jpeg"
-            className="mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md-h-96 xl:w-[300px] xl:h-[400px]"
+            className="mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md-h-96 xl:w-[500px] xl:h-[600px]"
           />
         </div>
         <div className="container w-1/2 text-sm flex justify-center items-center mx-auto">
@@ -28,8 +28,8 @@ const About = () => {
             <h4 className="text-4xl font-semibold flex justify-center">
               Here is a &nbsp; <span className="underline decoration-[#F7AB0A]/50"> little </span> &nbsp;background
             </h4>
-            <span className="flex justify-left"> I am Muhamad Bilawal Zaman.</span>
-            <p className="flex justify-left items-center px-0">
+            <span className="flex justify-center"> I am Muhamad Bilawal Zaman.</span>
+            <p className="flex justify-center items-center px-0">
               I am a passionate FRONT-END WEB DEVELOPER <br />
               I have one year of experience of HTML, CSS and javaScript <br />
               GitHub, Tailwinds CSS, Next.js enabling me to create <br />

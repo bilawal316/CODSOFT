@@ -3,7 +3,7 @@ import React from "react";
 import { BsPhoneFill } from "react-icons/bs";
 import { FiMapPin } from "react-icons/fi";
 import { BsEnvelopeAtFill } from "react-icons/bs";
-import ContactForm from "../../components/contact/contactForm";
+import ContactForm from "./contactForm";
 
 const Contact = () => {
   return (

@@ -3,6 +3,7 @@ import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import Link from "next/link";
 import BackgroundCircles from "../../components/backgroundCircles/backgroundCircles";
+import Image from "next/image";
 
 const Hero = () => {
   const [text, count] = useTypewriter({
@@ -16,7 +17,13 @@ const Hero = () => {
       <div className="z-0 pt-48">
         <BackgroundCircles />
       </div>
-      <img className="relative rounded-full h-32 w-32 mx-auto object-cover" src="./bilawal.jpeg" alt="" />
+      <Image
+        className="relative rounded-full mx-auto object-cover"
+        src="/bilawal.jpeg"
+        alt=""
+        width={120}
+        height={120}
+      ></Image>
       <div className="z-20">
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">Web Developer</h2>
       </div>

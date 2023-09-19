@@ -1,9 +1,14 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import ExperienceCard from "../../components/experienceCard/experienceCard";
 
 const Experience = () => {
+  useEffect(() => {
+    // Animation-related code here
+    // This code will run only on the client side
+  }, []);
+
   return (
     <div>
       <motion.div
