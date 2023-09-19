@@ -2,11 +2,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Skill1 from "../../components/skill/skill1";
-import Skill2 from "../../components/skill/skill2";
-import Skill3 from "../../components/skill/skill3";
-import Skill4 from "../../components/skill/skill4";
-import Skill5 from "../../components/skill/skill5";
-import Skill6 from "../../components/skill/skill6";
 
 const Skills = () => {
   return (
@@ -23,11 +18,7 @@ const Skills = () => {
       </h3>
       <div className="grid grid-cols-4 space-x-4">
         <Skill1 />
-        <Skill2 />
-        <Skill3 />
-        <Skill4 />
-        <Skill5 />
-        <Skill6 />
+      
       </div>
     </motion.div>
   );
