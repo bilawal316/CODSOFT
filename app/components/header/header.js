@@ -41,7 +41,7 @@ const Header = () => {
             className="flex flex-row items-center text-gray-300 cursor-pointer"
           >
             <AiOutlineMail />
-            <p className="uppercase hidden md:inline-flex text-sm text-gray-400">Get in Touch</p>
+            <p className="uppercase hidden md:inline-flex text-sm text-gray-400 pl-4">Get in Touch</p>
           </motion.div>
         </Link>
       </nav>
