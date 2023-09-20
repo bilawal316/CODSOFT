@@ -6,8 +6,7 @@ import Experience from "./components/Experience/experience";
 import Skills from "./components/Skills/skills";
 import Projects from "./components/Projects/projects";
 import Contact from "./components/contact/contact";
-import Link from "next/link";
-import Image from "next/image";
+import Footer from "./components/Footer/footer";
 
 const Page = () => {
   return (
@@ -33,19 +32,7 @@ const Page = () => {
       <section id="contact" className="snap-start">
         <Contact />
       </section>
-      <Link href="#hero">
-        <footer className="sticky bottom-5 w-full cursor-pointer">
-          <div className="flex items-center justify-center ">
-            <Image
-              className="rounded-full filter grayscale hover:grayscale-0 cursor-pointer"
-              src="/logo.png"
-              alt=""
-              width={10}
-              height={10}
-            />
-          </div>
-        </footer>
-      </Link>
+      <Footer/>
     </div>
   );
 };

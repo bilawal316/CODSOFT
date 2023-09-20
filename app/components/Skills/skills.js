@@ -2,6 +2,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Skill1 from "../../components/skill/skill1";
+import Skill2 from "../../components/skill/skill2";
+
+
 
 const Skills = () => {
   return (
@@ -18,7 +21,8 @@ const Skills = () => {
       </h3>
       <div className="grid grid-cols-4 space-x-4">
         <Skill1 />
-      
+        <Skill2 />
+  
       </div>
     </motion.div>
   );

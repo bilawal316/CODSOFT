@@ -32,7 +32,7 @@ const About = () => {
         <div className="container w-1/2 text-sm flex justify-center items-center mx-auto">
           <div className="space-y-10 x-0 md:px-10">
             <h4 className="text-4xl font-semibold flex justify-center">
-              Here is a &nbsp; <span className="underline decoration-[#F7AB0A]/50"> little </span> &nbsp;background
+              Here is a &nbsp; <span className="underline decoration-[#F7AB0A]/50 px-2"> little </span> background
             </h4>
             <span className="flex justify-left"> I am Muhamad Bilawal Zaman.</span>
             <p className="flex justify-left items-center px-0">
