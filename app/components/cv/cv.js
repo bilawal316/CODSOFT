@@ -2,10 +2,10 @@ import React from "react";
 
 const CV = () => {
   const handleDownload = () => {
-    const cvFile = "/MBilawal Zaman-Resume 2.pdf";
+    const cvFile = "/MBilawalZaman(Web-developer)-Resume.pdf";
     const link = document.createElement("a");
     link.href = cvFile;
-    link.download = "MBilawal Zaman-Resume 2.pdf";
+    link.download = "MBilawalZaman(Web-developer)-Resume.pdf";
     link.click();
   };
 

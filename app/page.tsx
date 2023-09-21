@@ -30,7 +30,7 @@ const Page = () => {
       <section id="contact">
         <Contact />
       </section>
-      <Footer />
+      <Footer/>
     </div>
   );
 };
