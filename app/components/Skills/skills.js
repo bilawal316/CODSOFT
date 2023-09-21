@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import Skill1 from "../../components/skill/skill1";
 import ImageGallery from "../Image Gallery/imageGallery";
 
 const Skills = () => {

@@ -9,7 +9,7 @@ const ImageGallery = () => {
       text: "85%",
     },
     {
-      src: "/HTML.png",
+      src: "/HTML.jpeg",
       alt: "Image 2",
       text: "90%",
     },
