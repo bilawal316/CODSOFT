@@ -9,12 +9,13 @@ import Image from "next/image";
 const ExperienceCard = () => {
   return (
     <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0  md-w-[600px] xl-w-[900px] snap-center bg-[#292929] hover:opacity-100 opacity-40 transition-opacity duration-200 overflow-hidden w-screen">
-      <motion.div className="flex justify-center pt-5">
+      <motion.div 
+      initial={{ y: -100, opacity: 0 }}
+      transition={{ duration: 1.2 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      className="flex justify-center pt-5">
         <Image
-          initial={{ y: -100, opacity: 0 }}
-          transition={{ duration: 1.2 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
           className="w-32 h-32 rounded-full xl:w-[200px] xl-h-[200px] object-cover object-center"
           src="/bilawal.jpeg"
           alt="Experince Card"

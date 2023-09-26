@@ -9,16 +9,17 @@ const About = () => {
     <div>
       <div className="flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl justify-evenly mx-auto items-center">
         <h3 className="absolute top-24 uppercase tracking-[30px] text-gray-500 text-[30px]"> About </h3>
-        <motion.div className="flex container w-1/2">
+        <motion.div 
+        initial={{
+          x: -200,
+          opacity: 0,
+        }}
+        transition={{
+          duration: 1.2,
+        }}
+        whileInView={{ opacity: 1, x: 0 }}
+        className="flex container w-1/2">
           <Image
-            initial={{
-              x: -200,
-              opacity: 0,
-            }}
-            transition={{
-              duration: 1.2,
-            }}
-            whileInView={{ opacity: 1, x: 0 }}
             src="/bilawal.jpeg"
             width={1200}
             height={1000}
