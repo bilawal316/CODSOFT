@@ -1,14 +1,17 @@
-// next.config.js
-
-module.exports = {
-    // Other configuration options...
-  
-    // Remove the experimental images configuration
-    // experimental: {
-    //   images: true,
-    // },
-  
-    // Use "export" for the output option
+/**
+ * @type {import('next').NextConfig}
+ */
+const nextConfig = {
     output: 'export',
-  };
-  
+   
+    // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
+    // trailingSlash: true,
+   
+    // Optional: Prevent automatic `/me` -> `/me/`, instead preserve `href`
+    // skipTrailingSlashRedirect: true,
+   
+    // Optional: Change the output directory `out` -> `dist`
+    // distDir: 'dist',
+  }
+   
+  module.exports = nextConfig
