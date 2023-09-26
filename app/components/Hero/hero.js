@@ -17,7 +17,13 @@ const Hero = () => {
       <div className="z-0 pt-48">
         <BackgroundCircles />
       </div>
-      <Image className="relative rounded-full mx-auto object-cover" src="/bilawal.jpeg" alt="" width={120} height={120}/>
+      <Image
+        className="relative rounded-full mx-auto object-cover"
+        src="/bilawal.jpeg"
+        alt=""
+        width={120}
+        height={120}
+      />
       <div className="z-20">
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">Web Developer</h2>
       </div>
