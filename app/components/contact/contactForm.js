@@ -12,17 +12,17 @@ const ContactForm = () => {
   const [subjectError, setSubjectError] = useState("");
   const [messageError, setMessageError] = useState("");
 
-  // Handle input changes
+
   const handleNameChange = (e) => {
     const input = e.target.value;
 
-    // Regular expression to allow only letters and spaces
+
     const regex = /^[A-Za-z\s]+$/;
 
     if (!regex.test(input)) {
       setNameError("Name can only contain letters and spaces");
     } else {
-      setNameError(""); // Clear the error when the input is valid
+      setNameError("");
     }
 
     setName(input);
@@ -31,13 +31,13 @@ const ContactForm = () => {
   const handleEmailChange = (e) => {
     const input = e.target.value;
 
-    // Regular expression to validate email format
+  
     const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
 
     if (!emailRegex.test(input)) {
       setEmailError("Invalid email format");
     } else {
-      setEmailError(""); // Clear the error when the input is valid
+      setEmailError(""); 
     }
 
     setEmail(input);
@@ -79,17 +79,17 @@ const ContactForm = () => {
     }
 
     if (hasError) {
-      // If there are errors, do not submit the form
+  
       return;
     }
 
-    // You can handle form submission logic here
+  
     console.log("Name:", name);
     console.log("Email:", email);
     console.log("Subject:", subject);
     console.log("Message:", message);
 
-    // Reset form fields
+
     setName("");
     setEmail("");
     setSubject("");

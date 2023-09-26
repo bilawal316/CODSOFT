@@ -16,8 +16,10 @@ const ExperienceCard = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           className="w-32 h-32 rounded-full xl:w-[200px] xl-h-[200px] object-cover object-center"
-          src="./bilawal.jpeg"
-          alt=""
+          src="/bilawal.jpeg"
+          alt="Experince Card"
+          width={1200}
+          height={1000}
         />
       </motion.div>
       <div className="pt-10 justify-center px-0 md:px-10">

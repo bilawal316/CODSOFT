@@ -1,24 +1,25 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const Projects = () => {
   const projects = [
     {
       id: 1,
-      src: "portfolio.png",
+      src: "/portfolio.png",
       alt: "Portfolio 1",
       text: "Portfolio Designs",
     },
     {
       id: 2,
-      src: "Calculator.png",
+      src: "/Calculator.png",
       alt: "Portfolio 2",
       text: "Calculator",
     },
     {
       id: 3,
-      src: "CODSOFT-Landing-Page.jpg",
+      src: "/CODSOFT-Landing-Page.jpg",
       alt: "Portfolio 3",
       text: "Website Landing Page",
     },
@@ -33,15 +34,18 @@ const Projects = () => {
             className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen"
             key={project.id}
           >
-            <motion.img
-              initial={{ y: -300, opacity: 0 }}
-              transition={{ duration: 1.2 }}
-              whileHover={{ scale: 1.1, transition: { duration: 0.2 } }}
-              whileInView={{ y: 0, opacity: 1 }}
+            <motion.div
+            initial={{ y: -300, opacity: 0 }}
+            transition={{ duration: 1.2 }}
+            whileHover={{ scale: 1.1, transition: { duration: 0.2 } }}
+            whileInView={{ y: 0, opacity: 1 }}>
+            <Image
               src={project.src}
               alt={project.alt}
-              style={{ width: "300px", height: "300px" }}
+              width={800}
+              height={1000}
             />
+            </motion.div>
 
             <div>
               <h4 className="text-4xl font-semibold text-center">

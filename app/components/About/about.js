@@ -9,8 +9,8 @@ const About = () => {
     <div>
       <div className="flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl justify-evenly mx-auto items-center">
         <h3 className="absolute top-24 uppercase tracking-[30px] text-gray-500 text-[30px]"> About </h3>
-        <div className="flex container w-1/2">
-          <motion.img
+        <motion.div className="flex container w-1/2">
+          <Image
             initial={{
               x: -200,
               opacity: 0,
@@ -19,13 +19,13 @@ const About = () => {
               duration: 1.2,
             }}
             whileInView={{ opacity: 1, x: 0 }}
-            src="./bilawal.jpeg"
+            src="/bilawal.jpeg"
+            width={1200}
+            height={1000}
             className="mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]"
             alt="Your image description"
-            width={500}
-            height={600}
           />
-        </div>
+        </motion.div>
         <div className="container w-1/2 text-sm flex justify-center items-center mx-auto">
           <div className="space-y-10 x-0 md:px-10">
             <h4 className="text-4xl font-semibold flex justify-center">
